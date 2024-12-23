@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { StartScreenComponent } from './start-screen/start-screen.component';
 
 @Component({
   selector: 'app-root',

@@ -1,0 +1,43 @@
+.field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-image: url('/assets/img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-stack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 20%;
+    height: 50%;
+    >img {
+        position: absolute;
+        width: 85%;
+        height: 76%;
+        object-fit: contain;
+    }
+}
+
+
+.top-card {
+    cursor: pointer;
+    transition: all 125ms ease-in-out;
+    &:hover {
+        transform: scale(1.05) translateY(-10px);
+    }   
+}
+
+.pick-card {
+    cursor: pointer;
+    transition: all 125ms ease-in-out;
+    transform: scale(1.15) !important;
+ 
+}
